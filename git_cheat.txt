@@ -1,0 +1,20 @@
+za dodavanje/uklanajnje fajlova
+	git add/rm ImeFajl.ekstenzija
+
+potom nakon dodavanja ili uklanjanja potrebno je commitovati te promene
+	git commit
+
+provera statusa sta smo menjali i da li imaju neke promene
+	git status
+
+dohvatanje promena sa branch-a
+	git pull origin ImeBranchaOvde
+
+za promenu na kom smo branchu
+	git checkout ImeBranchaOvde
+
+
+Inicijalna podesavanja:
+Otici u direktorijum u kom zelimo da cuvamo fajlove (ako treba napraviti ga)
+	git init
+	git remote add origin https://github.com/ImeVlasnika/ImeRepositoryja.git
