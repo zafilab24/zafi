@@ -3,19 +3,28 @@ za dodavanje/uklanajnje fajlova
 
 potom nakon dodavanja ili uklanjanja potrebno je commitovati te promene
 	git commit
+ovde ce iskociti unos komentara
+moze se i dodati odmah komentar za te promene sa opcijom -m 'Komentar'
+	git commit -m 'Komentar'
 
 i na kraju ih push-ovati na branch
 	git push
+moze se i dodatno specifirati na koji branch zelimo da pushujemo
+	git push origin ImeBrancha
+nije nuzno potrebno 'origin'
 
 provera statusa sta smo menjali i da li imaju neke promene
 	git status
 
 dohvatanje promena sa branch-a
-	git pull origin ImeBranchaOvde
+	git pull ImeBranchaOvde
 
 za promenu na kom smo branchu
-	git checkout ImeBranchaOvde
+	git checkout origin ImeBranchaOvde
+nije nuzno potrebno 'origin'
 
+kada smo zavrsili sa nekim branchom moze se obrisati sa
+	git branch -d ImeBranchaOvde
 
 -----Inicijalna podesavanja-----
 
